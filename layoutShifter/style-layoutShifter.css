@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1.5rem;
+    justify-content: space-between;
+}
+.c1, .c2, .c3, .c4, .c5 {
+    width: 100%;
+    min-width: 15rem;
+    height: calc(17vh - 1rem);
+    border: 0.2rem solid black;
+    margin-bottom: 1.5rem;
+    border-radius: 1.5rem;
+}
+.c6 {
+    width: 100%;
+    min-width: 15rem;
+}
+.c1 {
+    background-color: salmon;
+}
+.c2 {
+    background-color: sandybrown;
+}
+.c3 {
+    background-color: seagreen;
+}
+.c4 {
+    background-color: seashell;
+}
+.c5 {
+    background-color: sienna;
+}

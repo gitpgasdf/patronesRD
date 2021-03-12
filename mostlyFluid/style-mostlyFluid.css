@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 1.5rem;
+}
+.c1, .c2, .c3, .c4, .c5, .c6{
+    width: 100%;
+    min-width: 15rem;
+    height: calc(17vh - 1rem);
+    margin-bottom: 1.5rem;
+    border-radius: 1.5rem;
+    border: 0.2rem solid black;
+}
+.c1 {
+    background-color: salmon;
+}
+.c2 {
+    background-color: sandybrown;
+}
+.c3 {
+    background-color: seagreen;
+}
+.c4 {
+    background-color: seashell;
+}
+.c5 {
+    background-color: sienna;
+}
+.c6 {
+    background-color: seashell;
+}
+/* buenas prácticas: los media queries van abajo, acá se ponen los breakpoints */
+/* @media (min-width: 600px) {
+    .c2, .c3, .c4 {
+        width: 50%;
+    }
+} */
+/* @media (min-width: 800px) {
+    .container {
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .c1 {
+        width: 60%;
+    }
+    .c2 {
+        width: 40%;
+    }
+    .c3, .c4 {
+        width: 33%;
+    }
+    .c5 {
+        width: 34%;
+    }
+} */

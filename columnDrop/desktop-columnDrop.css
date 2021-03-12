@@ -1,0 +1,9 @@
+.c1 {
+    width: calc(20% - 1rem);
+}
+.c2 {
+    width: calc(30% - 1rem);
+}
+.c3 {
+    width: calc(50% - 1rem);
+}
